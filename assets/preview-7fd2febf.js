@@ -1,0 +1,2 @@
+import{j as r}from"./emotion-react-jsx-runtime.browser.esm-9f7ab893.js";import"./index-570b25c1.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-38ea7bbc.js";import"./_commonjsHelpers-042e6b4d.js";const c={actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}}},m=[o=>r(o,{})];export{m as decorators,c as parameters};
+//# sourceMappingURL=preview-7fd2febf.js.map
