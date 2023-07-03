@@ -20,8 +20,9 @@
     "build-storybook": "storybook build",
     "docs": "start-storybook",
     "deploy": "storybook-to-ghpages",
-    "storybook:build": "storybook build",
-    "storybook:publish": "pnpm storybook:build && touch ./storybook-static/.nojekyll && gh-pages -d ./storybook-static -t true"
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "storybook:publish": "yarn build-storybook && touch ./storybook-static/.nojekyll && gh-pages -d ./storybook-static -t true"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
